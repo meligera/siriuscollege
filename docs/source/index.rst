@@ -18,5 +18,4 @@
 .. toctree::
 
    zerotier
-   usage
    api

@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Документация для лаборатории колледжа Сириус
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Сайт документации:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://siriuscollege.readthedocs.io

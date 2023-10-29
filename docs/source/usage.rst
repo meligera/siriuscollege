@@ -1,12 +1,16 @@
 Подключение к сети
 =====
+
 Адрес нашей сети **96bd2850de30cbbd**
 
 .. _connection_windows:
 
+Windows
+------------
+
 Запускаем программу ZeroTier. Сервис должен появится в трее.
 
-Нажимаем Join network, указываем адрес: || 96bd2850de30cbbd
+Нажимаем Join network, указываем адрес: **96bd2850de30cbbd**
 
 Обязательно ставим галку напротив параметра Allow Default Router Override
 
@@ -14,7 +18,11 @@
 
 .. _connection_linux_bash:
 
+Ubuntu 22.04 (cli)
+------------
+
 Подключаемся к сети
+
 .. code-block:: console
 
     sudo zerotier-cli join 96bd2850de30cbbd

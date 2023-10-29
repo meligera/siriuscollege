@@ -9,13 +9,13 @@
 Ubuntu 22.04 (не из России)
 .. tip::
 
-   Самый простой способ, если есть VPN в другую страну
+    Самый простой способ, если есть VPN в другую страну
 
 Следуем инструкции официального сайта `Zerotier <https://www.zerotier.com/download/>`_
 
 .. code-block:: console
 
-   curl -s https://install.zerotier.com | sudo bash
+    curl -s https://install.zerotier.com | sudo bash
 
 
 .. _installation_linux:
@@ -24,47 +24,47 @@ Ubuntu 22.04 (Вручную)
 ------------
 .. tip::
 
-   Лучше все команды выполнять в режиме суперпользователя (sudo -i)
+    Лучше все команды выполнять в режиме суперпользователя (sudo -i)
 
 Устанавливаем зависимости которые понадобятся для сборки
 
 .. code-block:: console
 
-   apt update && apt install libssl-dev pkg-config build-essential git
+    apt update && apt install libssl-dev pkg-config build-essential git
 
 
 Загружаем Rust для компиляции, выбираем 1) default установку
 
 .. code-block:: console
 
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
 Обновляем переменную окружения
 
 .. code-block:: console
 
-   source "$HOME/.cargo/env"
+    source "$HOME/.cargo/env"
 
 
 Клонируем официальный репозиторий Zerotier
 
 .. code-block:: console
 
-   git clone https://github.com/zerotier/ZeroTierOne && cd ZeroTierOne
+    git clone https://github.com/zerotier/ZeroTierOne && cd ZeroTierOne
 
 Собираем приложение и устанавливаем
 
 .. code-block:: console
 
-   make && make install
+    make && make install
 
 
 Запускаем демон приложения
 
 .. code-block:: console
 
-   zerotier-one -d
+    zerotier-one -d
 
 .. _installation_windows:
 

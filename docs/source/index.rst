@@ -1,19 +1,18 @@
-Welcome to Lumache's documentation!
+Добро пожаловать на документацию лаборатории колледжа Сириус!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+На данном портале постоянно будет обновлятся документация о подключении к сети колледжа.
+В данный момент подключение производится с помощью Zerotier.
+По мере изменений инфраструктуры все изменения будут задокументированы здесь.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Используйте :doc:`usage` секцию для инстуркции по подключению, включая подробное описание под установку 
+на разные операционные системы :ref:`installation`
 
 .. note::
 
-   This project is under active development.
+   Проект постоянно дорабатывается, возможны перебои в работе
 
-Contents
+Оглавление
 --------
 
 .. toctree::

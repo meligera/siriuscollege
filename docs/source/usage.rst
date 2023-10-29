@@ -18,7 +18,10 @@
 .. code-block:: console
 
    sudo zerotier-cli join 96bd2850de30cbbd
+
 Написать в `Telegram <https://t.me/pgsq1>`_ @pgsq1 номер своего адреса сети, номер идет после 200 info
+
 .. code-block:: console
 
    sudo zerotier-cli info
+
